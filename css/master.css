@@ -1,0 +1,74 @@
+:root{
+  --bg-color : #BFD1D9;
+  --navbar-color: rgba(20,33,38,0.5);
+}
+
+
+html,body{
+  width: 100%;
+  height: 100%;
+  background:url("../images/home_background.jpg");
+  box-shadow: inset 0 0 0 500px var(--navbar-color);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  font-family:'Montserrat';
+  color: #fff;
+}
+#about-us{
+    margin-top: 50px; 
+}
+
+#title h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.5vw;
+  font-size: 7.32vw;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#title h3{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1vw;
+  font-size: 6vw;
+  text-align: center
+}
+
+p{
+  text-align: center;
+  padding: 0 10px;
+  font-size: 27px;
+  margin-top: 10px;
+}
+.description{
+  font-size: 20px;
+}
+.navbar-nav{
+  padding-left: 25%;
+  padding-right: 25%;
+  font-weight: 400;
+}
+
+.navbar-link-to-page{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.work-with-us-button{
+  padding: 0.5rem 0.7rem;
+}
+
+@media (max-width: 900px){
+  body{
+    background-size: 180vw;
+  }
+  #title{
+    text-align: center;
+  }
+  .work-with-us-buttom{
+    right: 85%;
+    position: static;
+    text-align: center;
+  }
+}
